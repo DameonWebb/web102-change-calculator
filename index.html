@@ -6,8 +6,43 @@
   </head>
   <body>
     <!-- Write your markup here -->
+    
+  <div class="container-fluid">
+      <h1>Change Calculator</h1>
+      <div id="topWrap" class="wrap">
+        <label for="saleItem">How much is due for the sale?</label>
+        <input type="number" id="amount-due" value="">
+        <label for="moneyPaid">How much has the customer given you?</label>
+        <input type="number" id="amount-received" value="">
+      </div>
+      
+      <div id="midWrap" class="wrap">
+        <h4>Dollars</h4>
+        <p id="dollars-output">0</p>
+      </div>
 
-    <!-- Don't forget to add your <script> tag here -->
+      <div id="bottomWrap" class="wrap">
+        <h4>Quarters</h4>
+        <p id="quarters-output">0</p>
 
-  </body>
+        <h4>Dimes</h4>
+        <p id="dimes-output">0</p>
+        
+        <h4>Nickels</h4>
+        <p id="nickels-output">0</p>
+      
+        <h4>Pennies</h4>
+        <p id="pennies-output">0</p>
+      </div>
+      
+      <button id="calculate-change">Calculate</button>
+
+
+        <!-- Don't forget to add your <script> tag here -->
+       
+
+
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+</body>
 </html>
